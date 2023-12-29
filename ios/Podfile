@@ -8,6 +8,9 @@ require Pod::Executable.execute_command('node', ['-p',
 platform :ios, min_ios_version_supported
 prepare_react_native_project!
 
+pod 'react-native-config', :path => '../node_modules/react-native-config'
+  # For extensions without React dependencies
+pod 'react-native-config/Extension', :path => '../node_modules/react-native-config'
 # If you are using a `react-native-flipper` your iOS build will fail when `NO_FLIPPER=1` is set.
 # because `react-native-flipper` depends on (FlipperKit,...) that will be excluded
 #
@@ -25,7 +28,7 @@ if linkage != nil
   use_frameworks! :linkage => linkage.to_sym
 end
 
-target 'FlavourEnvSetup' do
+  abstract_target 'FlavourEnvSetupPods' do
   config = use_native_modules!
 
   # Flags change depending on the env values.
@@ -48,6 +51,15 @@ target 'FlavourEnvSetup' do
   target 'FlavourEnvSetupTests' do
     inherit! :complete
     # Pods for testing
+  end
+
+  target 'FlavourEnvSetupDev' do
+  end
+ 
+  target 'FlavourEnvSetupStg' do
+  end
+ 
+  target 'FlavourEnvSetup' do
   end
 
   post_install do |installer|

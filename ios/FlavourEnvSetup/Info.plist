@@ -35,6 +35,17 @@
 			</dict>
 		</dict>
 	</dict>
+	<key>GIDClientID</key>
+	<string>Config.CLI</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+  	<dict>
+    <key>CFBundleURLSchemes</key>
+    	<array>
+     		<string>com.googleusercontent.apps.715555092220-251en4ejgurhjmpnqht3hsap15710bii</string>
+    	</array>
+  	</dict>
+	</array>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string></string>
 	<key>UILaunchStoryboardName</key>

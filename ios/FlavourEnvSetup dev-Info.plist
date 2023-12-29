@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>FlavourEnvSetup</string>
+	<string>FlavourEnvSetup dev</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -20,8 +20,19 @@
 	<string>$(MARKETING_VERSION)</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.715555092220-7ocqn27gsq2mhmmg9ae7s34oe43efdtt</string>
+			</array>
+		</dict>
+	</array>
 	<key>CFBundleVersion</key>
 	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>GIDClientID</key>
+	<string>Config.CLI</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
@@ -35,17 +46,6 @@
 			</dict>
 		</dict>
 	</dict>
-	<key>GIDClientID</key>
-	<string>715555092220-0ffn6840g19trphd2jg0r65jmcj9r8ng.apps.googleusercontent.com</string>
-	<key>CFBundleURLTypes</key>
-	<array>
-  	<dict>
-    <key>CFBundleURLSchemes</key>
-    	<array>
-     		<string>com.googleusercontent.apps.715555092220-251en4ejgurhjmpnqht3hsap15710bii</string>
-    	</array>
-  	</dict>
-	</array>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string></string>
 	<key>UILaunchStoryboardName</key>

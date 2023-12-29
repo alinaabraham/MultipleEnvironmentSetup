@@ -8,11 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* FlavourEnvSetupTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* FlavourEnvSetupTests.m */; };
-		0C80B921A6F3F58F76C31292 /* libPods-FlavourEnvSetup.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-FlavourEnvSetup.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		7699B88040F8A987B510C191 /* libPods-FlavourEnvSetup-FlavourEnvSetupTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-FlavourEnvSetup-FlavourEnvSetupTests.a */; };
+		15CF4A8F2B3E9040008925B9 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		15CF4A902B3E9040008925B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		15CF4A942B3E9040008925B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		15CF4A952B3E9040008925B9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		15CF4AA22B3E9145008925B9 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		15CF4AA32B3E9145008925B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		15CF4AA72B3E9145008925B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		15CF4AA82B3E9145008925B9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		33CE4E5CD69FD3A63C84057B /* libPods-FlavourEnvSetupPods-FlavourEnvSetupTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 688EB95F32B330492FBD47DA /* libPods-FlavourEnvSetupPods-FlavourEnvSetupTests.a */; };
+		5423E115CC000F11688CB793 /* libPods-FlavourEnvSetupPods-FlavourEnvSetup.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 401F27058536CCCD66AB9148 /* libPods-FlavourEnvSetupPods-FlavourEnvSetup.a */; };
+		59DA594C40F21F9FEC4568A1 /* libPods-FlavourEnvSetupPods-FlavourEnvSetupStg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DFD0D59A4488381754E1798 /* libPods-FlavourEnvSetupPods-FlavourEnvSetupStg.a */; };
+		5B12873969D405D0D7894FFA /* libPods-FlavourEnvSetupPods-FlavourEnvSetupDev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57FCE54E4D5BF1DD6900DF5F /* libPods-FlavourEnvSetupPods-FlavourEnvSetupDev.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -36,14 +46,30 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = FlavourEnvSetup/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = FlavourEnvSetup/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = FlavourEnvSetup/main.m; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-FlavourEnvSetup-FlavourEnvSetupTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FlavourEnvSetup-FlavourEnvSetupTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15CF4A9C2B3E9040008925B9 /* FlavourEnvSetupDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlavourEnvSetupDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15CF4A9D2B3E9040008925B9 /* FlavourEnvSetup dev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "FlavourEnvSetup dev-Info.plist"; path = "/Users/amithsnair/MultipleEnvironmentSetup/ios/FlavourEnvSetup dev-Info.plist"; sourceTree = "<absolute>"; };
+		15CF4AAF2B3E9145008925B9 /* FlavourEnvSetupStg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlavourEnvSetupStg.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15CF4AB02B3E9145008925B9 /* FlavourEnvSetup stg-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "FlavourEnvSetup stg-Info.plist"; path = "/Users/amithsnair/MultipleEnvironmentSetup/ios/FlavourEnvSetup stg-Info.plist"; sourceTree = "<absolute>"; };
+		15CF4ADC2B3EC80E008925B9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		15CF4ADE2B3EC80E008925B9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1AE323B8CE642DA655A6175C /* Pods-FlavourEnvSetupPods-FlavourEnvSetupDev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlavourEnvSetupPods-FlavourEnvSetupDev.release.xcconfig"; path = "Target Support Files/Pods-FlavourEnvSetupPods-FlavourEnvSetupDev/Pods-FlavourEnvSetupPods-FlavourEnvSetupDev.release.xcconfig"; sourceTree = "<group>"; };
+		244909D0837FAEA79E4AAB95 /* Pods-FlavourEnvSetupPods-FlavourEnvSetup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlavourEnvSetupPods-FlavourEnvSetup.release.xcconfig"; path = "Target Support Files/Pods-FlavourEnvSetupPods-FlavourEnvSetup/Pods-FlavourEnvSetupPods-FlavourEnvSetup.release.xcconfig"; sourceTree = "<group>"; };
+		33F63F64CE1FAB1F8154F98A /* Pods-FlavourEnvSetupPods-FlavourEnvSetupStg.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlavourEnvSetupPods-FlavourEnvSetupStg.debug.xcconfig"; path = "Target Support Files/Pods-FlavourEnvSetupPods-FlavourEnvSetupStg/Pods-FlavourEnvSetupPods-FlavourEnvSetupStg.debug.xcconfig"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-FlavourEnvSetup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlavourEnvSetup.debug.xcconfig"; path = "Target Support Files/Pods-FlavourEnvSetup/Pods-FlavourEnvSetup.debug.xcconfig"; sourceTree = "<group>"; };
+		3DFD0D59A4488381754E1798 /* libPods-FlavourEnvSetupPods-FlavourEnvSetupStg.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FlavourEnvSetupPods-FlavourEnvSetupStg.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		401F27058536CCCD66AB9148 /* libPods-FlavourEnvSetupPods-FlavourEnvSetup.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FlavourEnvSetupPods-FlavourEnvSetup.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5709B34CF0A7D63546082F79 /* Pods-FlavourEnvSetup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlavourEnvSetup.release.xcconfig"; path = "Target Support Files/Pods-FlavourEnvSetup/Pods-FlavourEnvSetup.release.xcconfig"; sourceTree = "<group>"; };
+		57FCE54E4D5BF1DD6900DF5F /* libPods-FlavourEnvSetupPods-FlavourEnvSetupDev.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FlavourEnvSetupPods-FlavourEnvSetupDev.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B7EB9410499542E8C5724F5 /* Pods-FlavourEnvSetup-FlavourEnvSetupTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlavourEnvSetup-FlavourEnvSetupTests.debug.xcconfig"; path = "Target Support Files/Pods-FlavourEnvSetup-FlavourEnvSetupTests/Pods-FlavourEnvSetup-FlavourEnvSetupTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-FlavourEnvSetup.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FlavourEnvSetup.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C80DBA1C26BD1FB06D5D147 /* Pods-FlavourEnvSetupPods-FlavourEnvSetupStg.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlavourEnvSetupPods-FlavourEnvSetupStg.release.xcconfig"; path = "Target Support Files/Pods-FlavourEnvSetupPods-FlavourEnvSetupStg/Pods-FlavourEnvSetupPods-FlavourEnvSetupStg.release.xcconfig"; sourceTree = "<group>"; };
+		688EB95F32B330492FBD47DA /* libPods-FlavourEnvSetupPods-FlavourEnvSetupTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FlavourEnvSetupPods-FlavourEnvSetupTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = FlavourEnvSetup/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-FlavourEnvSetup-FlavourEnvSetupTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlavourEnvSetup-FlavourEnvSetupTests.release.xcconfig"; path = "Target Support Files/Pods-FlavourEnvSetup-FlavourEnvSetupTests/Pods-FlavourEnvSetup-FlavourEnvSetupTests.release.xcconfig"; sourceTree = "<group>"; };
+		A20FD0A620F7FA21B2404619 /* Pods-FlavourEnvSetupPods-FlavourEnvSetupDev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlavourEnvSetupPods-FlavourEnvSetupDev.debug.xcconfig"; path = "Target Support Files/Pods-FlavourEnvSetupPods-FlavourEnvSetupDev/Pods-FlavourEnvSetupPods-FlavourEnvSetupDev.debug.xcconfig"; sourceTree = "<group>"; };
+		A5C5A7E20A9934DD2980C6ED /* Pods-FlavourEnvSetupPods-FlavourEnvSetupTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlavourEnvSetupPods-FlavourEnvSetupTests.release.xcconfig"; path = "Target Support Files/Pods-FlavourEnvSetupPods-FlavourEnvSetupTests/Pods-FlavourEnvSetupPods-FlavourEnvSetupTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F1FC1A1EB1CC397DAF01F8EF /* Pods-FlavourEnvSetupPods-FlavourEnvSetup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlavourEnvSetupPods-FlavourEnvSetup.debug.xcconfig"; path = "Target Support Files/Pods-FlavourEnvSetupPods-FlavourEnvSetup/Pods-FlavourEnvSetupPods-FlavourEnvSetup.debug.xcconfig"; sourceTree = "<group>"; };
+		FAA9219FD9687C0C03CC3B5D /* Pods-FlavourEnvSetupPods-FlavourEnvSetupTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlavourEnvSetupPods-FlavourEnvSetupTests.debug.xcconfig"; path = "Target Support Files/Pods-FlavourEnvSetupPods-FlavourEnvSetupTests/Pods-FlavourEnvSetupPods-FlavourEnvSetupTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-FlavourEnvSetup-FlavourEnvSetupTests.a in Frameworks */,
+				33CE4E5CD69FD3A63C84057B /* libPods-FlavourEnvSetupPods-FlavourEnvSetupTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +85,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-FlavourEnvSetup.a in Frameworks */,
+				5423E115CC000F11688CB793 /* libPods-FlavourEnvSetupPods-FlavourEnvSetup.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15CF4A912B3E9040008925B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B12873969D405D0D7894FFA /* libPods-FlavourEnvSetupPods-FlavourEnvSetupDev.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15CF4AA42B3E9145008925B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59DA594C40F21F9FEC4568A1 /* libPods-FlavourEnvSetupPods-FlavourEnvSetupStg.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +128,7 @@
 		13B07FAE1A68108700A75B9A /* FlavourEnvSetup */ = {
 			isa = PBXGroup;
 			children = (
+				15CF4ADA2B3EC80E008925B9 /* Firebase */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -96,12 +139,39 @@
 			name = FlavourEnvSetup;
 			sourceTree = "<group>";
 		};
+		15CF4ADA2B3EC80E008925B9 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				15CF4ADB2B3EC80E008925B9 /* Dev */,
+				15CF4ADD2B3EC80E008925B9 /* Stg */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		15CF4ADB2B3EC80E008925B9 /* Dev */ = {
+			isa = PBXGroup;
+			children = (
+				15CF4ADC2B3EC80E008925B9 /* GoogleService-Info.plist */,
+			);
+			path = Dev;
+			sourceTree = "<group>";
+		};
+		15CF4ADD2B3EC80E008925B9 /* Stg */ = {
+			isa = PBXGroup;
+			children = (
+				15CF4ADE2B3EC80E008925B9 /* GoogleService-Info.plist */,
+			);
+			path = Stg;
+			sourceTree = "<group>";
+		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-FlavourEnvSetup.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-FlavourEnvSetup-FlavourEnvSetupTests.a */,
+				401F27058536CCCD66AB9148 /* libPods-FlavourEnvSetupPods-FlavourEnvSetup.a */,
+				57FCE54E4D5BF1DD6900DF5F /* libPods-FlavourEnvSetupPods-FlavourEnvSetupDev.a */,
+				3DFD0D59A4488381754E1798 /* libPods-FlavourEnvSetupPods-FlavourEnvSetupStg.a */,
+				688EB95F32B330492FBD47DA /* libPods-FlavourEnvSetupPods-FlavourEnvSetupTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -122,6 +192,8 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				15CF4A9D2B3E9040008925B9 /* FlavourEnvSetup dev-Info.plist */,
+				15CF4AB02B3E9145008925B9 /* FlavourEnvSetup stg-Info.plist */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -133,6 +205,8 @@
 			children = (
 				13B07F961A680F5B00A75B9A /* FlavourEnvSetup.app */,
 				00E356EE1AD99517003FC87E /* FlavourEnvSetupTests.xctest */,
+				15CF4A9C2B3E9040008925B9 /* FlavourEnvSetupDev.app */,
+				15CF4AAF2B3E9145008925B9 /* FlavourEnvSetupStg.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -144,6 +218,14 @@
 				5709B34CF0A7D63546082F79 /* Pods-FlavourEnvSetup.release.xcconfig */,
 				5B7EB9410499542E8C5724F5 /* Pods-FlavourEnvSetup-FlavourEnvSetupTests.debug.xcconfig */,
 				89C6BE57DB24E9ADA2F236DE /* Pods-FlavourEnvSetup-FlavourEnvSetupTests.release.xcconfig */,
+				F1FC1A1EB1CC397DAF01F8EF /* Pods-FlavourEnvSetupPods-FlavourEnvSetup.debug.xcconfig */,
+				244909D0837FAEA79E4AAB95 /* Pods-FlavourEnvSetupPods-FlavourEnvSetup.release.xcconfig */,
+				A20FD0A620F7FA21B2404619 /* Pods-FlavourEnvSetupPods-FlavourEnvSetupDev.debug.xcconfig */,
+				1AE323B8CE642DA655A6175C /* Pods-FlavourEnvSetupPods-FlavourEnvSetupDev.release.xcconfig */,
+				33F63F64CE1FAB1F8154F98A /* Pods-FlavourEnvSetupPods-FlavourEnvSetupStg.debug.xcconfig */,
+				5C80DBA1C26BD1FB06D5D147 /* Pods-FlavourEnvSetupPods-FlavourEnvSetupStg.release.xcconfig */,
+				FAA9219FD9687C0C03CC3B5D /* Pods-FlavourEnvSetupPods-FlavourEnvSetupTests.debug.xcconfig */,
+				A5C5A7E20A9934DD2980C6ED /* Pods-FlavourEnvSetupPods-FlavourEnvSetupTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -194,6 +276,52 @@
 			productReference = 13B07F961A680F5B00A75B9A /* FlavourEnvSetup.app */;
 			productType = "com.apple.product-type.application";
 		};
+		15CF4A8B2B3E9040008925B9 /* FlavourEnvSetupDev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15CF4A992B3E9040008925B9 /* Build configuration list for PBXNativeTarget "FlavourEnvSetupDev" */;
+			buildPhases = (
+				15CF4A8C2B3E9040008925B9 /* [CP] Check Pods Manifest.lock */,
+				15CF4A8D2B3E9040008925B9 /* Start Packager */,
+				15CF4A8E2B3E9040008925B9 /* Sources */,
+				15CF4A912B3E9040008925B9 /* Frameworks */,
+				15CF4AB52B3EA614008925B9 /* Setup Firebase Environment GoogleService-Info.plist */,
+				15CF4A932B3E9040008925B9 /* Resources */,
+				15CF4A962B3E9040008925B9 /* Bundle React Native code and images */,
+				15CF4A972B3E9040008925B9 /* [CP] Embed Pods Frameworks */,
+				15CF4A982B3E9040008925B9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlavourEnvSetupDev;
+			productName = FlavourEnvSetup;
+			productReference = 15CF4A9C2B3E9040008925B9 /* FlavourEnvSetupDev.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15CF4A9E2B3E9145008925B9 /* FlavourEnvSetupStg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15CF4AAC2B3E9145008925B9 /* Build configuration list for PBXNativeTarget "FlavourEnvSetupStg" */;
+			buildPhases = (
+				15CF4A9F2B3E9145008925B9 /* [CP] Check Pods Manifest.lock */,
+				15CF4AA02B3E9145008925B9 /* Start Packager */,
+				15CF4AA12B3E9145008925B9 /* Sources */,
+				15CF4AA42B3E9145008925B9 /* Frameworks */,
+				15CF4AB62B3EA6E6008925B9 /* Setup Firebase Environment GoogleService-Info.plist */,
+				15CF4AA62B3E9145008925B9 /* Resources */,
+				15CF4AA92B3E9145008925B9 /* Bundle React Native code and images */,
+				15CF4AAA2B3E9145008925B9 /* [CP] Embed Pods Frameworks */,
+				15CF4AAB2B3E9145008925B9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlavourEnvSetupStg;
+			productName = FlavourEnvSetup;
+			productReference = 15CF4AAF2B3E9145008925B9 /* FlavourEnvSetupStg.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -226,6 +354,8 @@
 			targets = (
 				13B07F861A680F5B00A75B9A /* FlavourEnvSetup */,
 				00E356ED1AD99517003FC87E /* FlavourEnvSetupTests */,
+				15CF4A8B2B3E9040008925B9 /* FlavourEnvSetupDev */,
+				15CF4A9E2B3E9145008925B9 /* FlavourEnvSetupStg */,
 			);
 		};
 /* End PBXProject section */
@@ -244,6 +374,24 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15CF4A932B3E9040008925B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15CF4A942B3E9040008925B9 /* LaunchScreen.storyboard in Resources */,
+				15CF4A952B3E9040008925B9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15CF4AA62B3E9145008925B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15CF4AA72B3E9145008925B9 /* LaunchScreen.storyboard in Resources */,
+				15CF4AA82B3E9145008925B9 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,16 +420,234 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FlavourEnvSetup/Pods-FlavourEnvSetup-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-FlavourEnvSetupPods-FlavourEnvSetup/Pods-FlavourEnvSetupPods-FlavourEnvSetup-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FlavourEnvSetup/Pods-FlavourEnvSetup-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-FlavourEnvSetupPods-FlavourEnvSetup/Pods-FlavourEnvSetupPods-FlavourEnvSetup-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlavourEnvSetup/Pods-FlavourEnvSetup-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlavourEnvSetupPods-FlavourEnvSetup/Pods-FlavourEnvSetupPods-FlavourEnvSetup-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		15CF4A8C2B3E9040008925B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlavourEnvSetupPods-FlavourEnvSetupDev-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		15CF4A8D2B3E9040008925B9 /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		15CF4A962B3E9040008925B9 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		15CF4A972B3E9040008925B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlavourEnvSetupPods-FlavourEnvSetupDev/Pods-FlavourEnvSetupPods-FlavourEnvSetupDev-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlavourEnvSetupPods-FlavourEnvSetupDev/Pods-FlavourEnvSetupPods-FlavourEnvSetupDev-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlavourEnvSetupPods-FlavourEnvSetupDev/Pods-FlavourEnvSetupPods-FlavourEnvSetupDev-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		15CF4A982B3E9040008925B9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlavourEnvSetupPods-FlavourEnvSetupDev/Pods-FlavourEnvSetupPods-FlavourEnvSetupDev-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlavourEnvSetupPods-FlavourEnvSetupDev/Pods-FlavourEnvSetupPods-FlavourEnvSetupDev-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlavourEnvSetupPods-FlavourEnvSetupDev/Pods-FlavourEnvSetupPods-FlavourEnvSetupDev-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		15CF4A9F2B3E9145008925B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlavourEnvSetupPods-FlavourEnvSetupStg-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		15CF4AA02B3E9145008925B9 /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		15CF4AA92B3E9145008925B9 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		15CF4AAA2B3E9145008925B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlavourEnvSetupPods-FlavourEnvSetupStg/Pods-FlavourEnvSetupPods-FlavourEnvSetupStg-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlavourEnvSetupPods-FlavourEnvSetupStg/Pods-FlavourEnvSetupPods-FlavourEnvSetupStg-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlavourEnvSetupPods-FlavourEnvSetupStg/Pods-FlavourEnvSetupPods-FlavourEnvSetupStg-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		15CF4AAB2B3E9145008925B9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlavourEnvSetupPods-FlavourEnvSetupStg/Pods-FlavourEnvSetupPods-FlavourEnvSetupStg-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlavourEnvSetupPods-FlavourEnvSetupStg/Pods-FlavourEnvSetupPods-FlavourEnvSetupStg-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlavourEnvSetupPods-FlavourEnvSetupStg/Pods-FlavourEnvSetupPods-FlavourEnvSetupStg-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		15CF4AB52B3EA614008925B9 /* Setup Firebase Environment GoogleService-Info.plist */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Setup Firebase Environment GoogleService-Info.plist";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "# Name of the resource we're selectively copying\nGOOGLESERVICE_INFO_PLIST=GoogleService-Info.plist\n# Get references to dev and prod versions of the GoogleService-Info.plist\n# NOTE: These should only live on the file system and should NOT be part of the target (since we'll be adding them to the target manually)\nGOOGLESERVICE_INFO_DEV=${PROJECT_DIR}/Firebase/Dev/${GOOGLESERVICE_INFO_PLIST}\nGOOGLESERVICE_INFO_STG=${PROJECT_DIR}/Firebase/Stg/${GOOGLESERVICE_INFO_PLIST}\n# Make sure the dev version of GoogleService-Info.plist exists\necho \"Looking for ${GOOGLESERVICE_INFO_PLIST} in ${GOOGLESERVICE_INFO_DEV}\"\nif [ ! -f $GOOGLESERVICE_INFO_DEV ]\nthen\necho \"No Development GoogleService-Info.plist found. Please ensure it's in the proper directory.\"\nexit 1\nfi\n# Make sure the prod version of GoogleService-Info.plist exists\necho \"Looking for ${GOOGLESERVICE_INFO_PLIST} in ${GOOGLESERVICE_INFO_STG}\"\nif [ ! -f $GOOGLESERVICE_INFO_STG ]\nthen\necho \"No Production GoogleService-Info.plist found. Please ensure it's in the proper directory.\"\nexit 1\nfi\n# Get a reference to the destination location for the GoogleService-Info.plist\nPLIST_DESTINATION=${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app\necho \"Will copy ${GOOGLESERVICE_INFO_PLIST} to final destination: ${PLIST_DESTINATION}\"\n# Copy over the prod GoogleService-Info.plist for Release builds\nif [ \"${CONFIGURATION}\" == \"Release\" ]\nthen\necho \"Using ${GOOGLESERVICE_INFO_STG}\"\ncp \"${GOOGLESERVICE_INFO_STG}\" \"${PLIST_DESTINATION}\"\nelse\necho \"Using ${GOOGLESERVICE_INFO_DEV}\"\ncp \"${GOOGLESERVICE_INFO_DEV}\" \"${PLIST_DESTINATION}\"\nfi\n";
+		};
+		15CF4AB62B3EA6E6008925B9 /* Setup Firebase Environment GoogleService-Info.plist */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Setup Firebase Environment GoogleService-Info.plist";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "# Name of the resource we're selectively copying\nGOOGLESERVICE_INFO_PLIST=GoogleService-Info.plist\n# Get references to dev and prod versions of the GoogleService-Info.plist\n# NOTE: These should only live on the file system and should NOT be part of the target (since we'll be adding them to the target manually)\nGOOGLESERVICE_INFO_DEV=${PROJECT_DIR}/Firebase/Dev/${GOOGLESERVICE_INFO_PLIST}\nGOOGLESERVICE_INFO_STG=${PROJECT_DIR}/Firebase/Stg/${GOOGLESERVICE_INFO_PLIST}\n# Make sure the dev version of GoogleService-Info.plist exists\necho \"Looking for ${GOOGLESERVICE_INFO_PLIST} in ${GOOGLESERVICE_INFO_DEV}\"\nif [ ! -f $GOOGLESERVICE_INFO_DEV ]\nthen\necho \"No Development GoogleService-Info.plist found. Please ensure it's in the proper directory.\"\nexit 1\nfi\n# Make sure the prod version of GoogleService-Info.plist exists\necho \"Looking for ${GOOGLESERVICE_INFO_PLIST} in ${GOOGLESERVICE_INFO_STG}\"\nif [ ! -f $GOOGLESERVICE_INFO_STG ]\nthen\necho \"No Production GoogleService-Info.plist found. Please ensure it's in the proper directory.\"\nexit 1\nfi\n# Get a reference to the destination location for the GoogleService-Info.plist\nPLIST_DESTINATION=${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app\necho \"Will copy ${GOOGLESERVICE_INFO_PLIST} to final destination: ${PLIST_DESTINATION}\"\n# Copy over the prod GoogleService-Info.plist for Release builds\nif [ \"${CONFIGURATION}\" == \"Release\" ]\nthen\necho \"Using ${GOOGLESERVICE_INFO_STG}\"\ncp \"${GOOGLESERVICE_INFO_STG}\" \"${PLIST_DESTINATION}\"\nelse\necho \"Using ${GOOGLESERVICE_INFO_DEV}\"\ncp \"${GOOGLESERVICE_INFO_DEV}\" \"${PLIST_DESTINATION}\"\nfi\n\n";
 		};
 		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -298,7 +664,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FlavourEnvSetup-FlavourEnvSetupTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-FlavourEnvSetupPods-FlavourEnvSetupTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -320,7 +686,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FlavourEnvSetup-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-FlavourEnvSetupPods-FlavourEnvSetup-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -333,15 +699,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FlavourEnvSetup-FlavourEnvSetupTests/Pods-FlavourEnvSetup-FlavourEnvSetupTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-FlavourEnvSetupPods-FlavourEnvSetupTests/Pods-FlavourEnvSetupPods-FlavourEnvSetupTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FlavourEnvSetup-FlavourEnvSetupTests/Pods-FlavourEnvSetup-FlavourEnvSetupTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-FlavourEnvSetupPods-FlavourEnvSetupTests/Pods-FlavourEnvSetupPods-FlavourEnvSetupTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlavourEnvSetup-FlavourEnvSetupTests/Pods-FlavourEnvSetup-FlavourEnvSetupTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlavourEnvSetupPods-FlavourEnvSetupTests/Pods-FlavourEnvSetupPods-FlavourEnvSetupTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
@@ -350,15 +716,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FlavourEnvSetup/Pods-FlavourEnvSetup-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-FlavourEnvSetupPods-FlavourEnvSetup/Pods-FlavourEnvSetupPods-FlavourEnvSetup-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FlavourEnvSetup/Pods-FlavourEnvSetup-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-FlavourEnvSetupPods-FlavourEnvSetup/Pods-FlavourEnvSetupPods-FlavourEnvSetup-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlavourEnvSetup/Pods-FlavourEnvSetup-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlavourEnvSetupPods-FlavourEnvSetup/Pods-FlavourEnvSetupPods-FlavourEnvSetup-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
@@ -367,15 +733,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FlavourEnvSetup-FlavourEnvSetupTests/Pods-FlavourEnvSetup-FlavourEnvSetupTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-FlavourEnvSetupPods-FlavourEnvSetupTests/Pods-FlavourEnvSetupPods-FlavourEnvSetupTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FlavourEnvSetup-FlavourEnvSetupTests/Pods-FlavourEnvSetup-FlavourEnvSetupTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-FlavourEnvSetupPods-FlavourEnvSetupTests/Pods-FlavourEnvSetupPods-FlavourEnvSetupTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlavourEnvSetup-FlavourEnvSetupTests/Pods-FlavourEnvSetup-FlavourEnvSetupTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlavourEnvSetupPods-FlavourEnvSetupTests/Pods-FlavourEnvSetupPods-FlavourEnvSetupTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -417,6 +783,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		15CF4A8E2B3E9040008925B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15CF4A8F2B3E9040008925B9 /* AppDelegate.mm in Sources */,
+				15CF4A902B3E9040008925B9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15CF4AA12B3E9145008925B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15CF4AA22B3E9145008925B9 /* AppDelegate.mm in Sources */,
+				15CF4AA32B3E9145008925B9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -430,7 +814,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-FlavourEnvSetup-FlavourEnvSetupTests.debug.xcconfig */;
+			baseConfigurationReference = FAA9219FD9687C0C03CC3B5D /* Pods-FlavourEnvSetupPods-FlavourEnvSetupTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -457,7 +841,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-FlavourEnvSetup-FlavourEnvSetupTests.release.xcconfig */;
+			baseConfigurationReference = A5C5A7E20A9934DD2980C6ED /* Pods-FlavourEnvSetupPods-FlavourEnvSetupTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -481,11 +865,12 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-FlavourEnvSetup.debug.xcconfig */;
+			baseConfigurationReference = F1FC1A1EB1CC397DAF01F8EF /* Pods-FlavourEnvSetupPods-FlavourEnvSetup.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8WNZHALCK5;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = FlavourEnvSetup/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -498,7 +883,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FlavourEnvSetup;
 				PRODUCT_NAME = FlavourEnvSetup;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -508,11 +893,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-FlavourEnvSetup.release.xcconfig */;
+			baseConfigurationReference = 244909D0837FAEA79E4AAB95 /* Pods-FlavourEnvSetupPods-FlavourEnvSetup.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8WNZHALCK5;
 				INFOPLIST_FILE = FlavourEnvSetup/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -524,8 +910,128 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FlavourEnvSetup;
 				PRODUCT_NAME = FlavourEnvSetup;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		15CF4A9A2B3E9040008925B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A20FD0A620F7FA21B2404619 /* Pods-FlavourEnvSetupPods-FlavourEnvSetupDev.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconDev;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8WNZHALCK5;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "FlavourEnvSetup dev-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "FlavourEnvSetup dev";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FlavourEnvSetup.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		15CF4A9B2B3E9040008925B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AE323B8CE642DA655A6175C /* Pods-FlavourEnvSetupPods-FlavourEnvSetupDev.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconDev;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8WNZHALCK5;
+				INFOPLIST_FILE = "FlavourEnvSetup dev-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "FlavourEnvSetup dev";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FlavourEnvSetup.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		15CF4AAD2B3E9145008925B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33F63F64CE1FAB1F8154F98A /* Pods-FlavourEnvSetupPods-FlavourEnvSetupStg.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconLive;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8WNZHALCK5;
+				ENABLE_BITCODE = NO;
+				GOOGLE_SERVICE_INFO_PLIST_STG = "FlavourEnvSetup stg-Info.plist";
+				INFOPLIST_FILE = "FlavourEnvSetup stg-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "FlavourEnvSetup stg";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FlavourEnvSetup.stg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		15CF4AAE2B3E9145008925B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C80DBA1C26BD1FB06D5D147 /* Pods-FlavourEnvSetupPods-FlavourEnvSetupStg.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconLive;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8WNZHALCK5;
+				GOOGLE_SERVICE_INFO_PLIST_STG = "FlavourEnvSetup stg-Info.plist";
+				INFOPLIST_FILE = "FlavourEnvSetup stg-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "FlavourEnvSetup stg";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FlavourEnvSetup.stg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -564,7 +1070,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -572,6 +1078,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
+					_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -592,12 +1099,18 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "$(inherited)";
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
 					"-DFOLLY_NO_CONFIG",
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -635,9 +1148,13 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION,
+				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -655,12 +1172,18 @@
 					"\"$(inherited)\"",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = "$(inherited)";
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
 					"-DFOLLY_NO_CONFIG",
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -683,6 +1206,24 @@
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
 				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15CF4A992B3E9040008925B9 /* Build configuration list for PBXNativeTarget "FlavourEnvSetupDev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15CF4A9A2B3E9040008925B9 /* Debug */,
+				15CF4A9B2B3E9040008925B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15CF4AAC2B3E9145008925B9 /* Build configuration list for PBXNativeTarget "FlavourEnvSetupStg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15CF4AAD2B3E9145008925B9 /* Debug */,
+				15CF4AAE2B3E9145008925B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

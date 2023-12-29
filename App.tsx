@@ -6,17 +6,19 @@ import {
   statusCodes,
 } from '@react-native-google-signin/google-signin';
 export default () => {
-  console.log(Config);
+  console.log('jiiiiii', Config.CLI);
   useEffect(() => {
     GoogleSignin.configure({
       scopes: ['email'], // what API you want to access on behalf of the user, default is email and profile
       // webClientId: '1073605360118-joknhhdaejlk6f74qsc82g76of5rtd1p.apps.googleusercontent.com', // client ID of type WEB for your server (needed to verify user ID and offline access)
-      webClientId: Config.CLI, // client ID of type WEB for your server (needed to verify user ID and offline access)
+      webClientId:
+        '715555092220-5avs8i7bl6neqfla198r83of7b855rpa.apps.googleusercontent.com', // client ID of type WEB for your server (needed to verify user ID and offline access)
       offlineAccess: true, // if you want to access Google API on behalf of the user FROM YOUR SERVER
       hostedDomain: '', // specifies a hosted domain restriction
       forceCodeForRefreshToken: true, // [Android] related to `serverAuthCode`, read the docs link below *.
       accountName: '', // [Android] specifies an account name on the device that should be used
-      iosClientId: '', // [iOS] if you want to specify the client ID of type iOS (otherwise, it is taken from GoogleService-Info.plist)
+      iosClientId:
+        '715555092220-251en4ejgurhjmpnqht3hsap15710bii.apps.googleusercontent.com', // [iOS] if you want to specify the client ID of type iOS (otherwise, it is taken from GoogleService-Info.plist)
       googleServicePlistPath: '', // [iOS] if you renamed your GoogleService-Info file, new name here, e.g. GoogleService-Info-Staging
       openIdRealm: '', // [iOS] The OpenID2 realm of the home web server. This allows Google to include the user's OpenID Identifier in the OpenID Connect ID token.
       profileImageSize: 120, // [iOS] The desired height (and width) of the profile image. Defaults to 120px
@@ -25,9 +27,9 @@ export default () => {
   const signIn = async () => {
     try {
       await GoogleSignin.hasPlayServices();
-      if (Platform.OS === 'android') {
+      if (Platform.OS === 'ios') {
         const hasSignedIn = await GoogleSignin.isSignedIn();
-        console.log('!', hasSignedIn);
+        console.log('#', hasSignedIn);
 
         if (hasSignedIn) {
           await GoogleSignin.revokeAccess();
@@ -90,7 +92,7 @@ export default () => {
       <Text style={{color: 'indigo'}}>
         {Config.ENV} : {Config.API_URL}
       </Text>
-      <View style={styles.viewStyle}>
+      <View>
         <TouchableOpacity onPress={signIn}>
           <Text style={styles.textStyle}>Google Sign in</Text>
         </TouchableOpacity>
