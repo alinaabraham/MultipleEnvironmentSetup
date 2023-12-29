@@ -1,0 +1,121 @@
+{
+  "project_info": {
+    "project_number": "715555092220",
+    "project_id": "fes-dev-71aaa",
+    "storage_bucket": "fes-dev-71aaa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715555092220:android:0aea28014e1036bd0f8979",
+        "android_client_info": {
+          "package_name": "com.flavourenvsetup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "715555092220-5avs8i7bl6neqfla198r83of7b855rpa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.flavourenvsetup",
+            "certificate_hash": "40ca395395670ff3d98bac777af355b2de299401"
+          }
+        },
+        {
+          "client_id": "715555092220-0ffn6840g19trphd2jg0r65jmcj9r8ng.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfCyDxPE1cysNo6bD44gblUj2_RUHEwU0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "715555092220-0ffn6840g19trphd2jg0r65jmcj9r8ng.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715555092220:android:3adfc98b884ef4700f8979",
+        "android_client_info": {
+          "package_name": "com.flavourenvsetup.development"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "715555092220-1kqj87iea0hpq5hqojmbjaipa6cop8qv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.flavourenvsetup.development",
+            "certificate_hash": "40ca395395670ff3d98bac777af355b2de299401"
+          }
+        },
+        {
+          "client_id": "715555092220-0ffn6840g19trphd2jg0r65jmcj9r8ng.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfCyDxPE1cysNo6bD44gblUj2_RUHEwU0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "715555092220-0ffn6840g19trphd2jg0r65jmcj9r8ng.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715555092220:android:967bc1d4891a4c0a0f8979",
+        "android_client_info": {
+          "package_name": "com.flavourenvsetup.staging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "715555092220-n755699t794lkmhdsdd3cviagvjpus9r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.flavourenvsetup.staging",
+            "certificate_hash": "40ca395395670ff3d98bac777af355b2de299401"
+          }
+        },
+        {
+          "client_id": "715555092220-0ffn6840g19trphd2jg0r65jmcj9r8ng.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfCyDxPE1cysNo6bD44gblUj2_RUHEwU0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "715555092220-0ffn6840g19trphd2jg0r65jmcj9r8ng.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
